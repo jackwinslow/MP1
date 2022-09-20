@@ -19,6 +19,7 @@ func main() {
 	file, err := os.Open("./config.txt")
 	if err != nil {
 		fmt.Println("Failed to open config file!")
+		return
 	}
 
 	s := bufio.NewScanner(file)
