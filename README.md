@@ -1,2 +1,2 @@
-# G Chat
+# Go Chat
 
